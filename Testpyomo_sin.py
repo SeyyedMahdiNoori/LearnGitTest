@@ -8,11 +8,11 @@ from pyomo.environ import Var
 from pyomo.environ import Objective
 from pyomo.opt import SolverFactory
 from pyomo.environ import sin
-from math import pi
+#from math import pi
 import  time
 import random
 
-A=1
+A = 1.05 # Probably a wrong idea
 
 s=time.time()
 
