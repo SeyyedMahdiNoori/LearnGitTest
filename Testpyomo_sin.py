@@ -8,7 +8,7 @@ from pyomo.environ import Var
 from pyomo.environ import Objective
 from pyomo.opt import SolverFactory
 from pyomo.environ import sin
-# from math import pi
+from math import pi
 import  time
 import random
 
@@ -17,6 +17,7 @@ A=1
 s=time.time()
 
 model=ConcreteModel()
+
 
 model.Thet= Var(within=Reals)
 model.Cons = ConstraintList()
