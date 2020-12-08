@@ -1,18 +1,18 @@
 from pyomo.environ import Reals
-from pyomo.environ import NonNegativeReals
-from pyomo.environ import Constraint
+# from pyomo.environ import NonNegativeReals
+# from pyomo.environ import Constraint
 from pyomo.environ import ConstraintList
 from pyomo.environ import ConcreteModel
-from pyomo.environ import Reals
+#from pyomo.environ import Reals
 from pyomo.environ import Var
 from pyomo.environ import Objective
 from pyomo.opt import SolverFactory
 from pyomo.environ import sin
-from math import pi
+# from math import pi
 import  time
 import random
 
-print(A)
+# print(A)
 
 s=time.time()
 
@@ -56,4 +56,4 @@ for t in range(0,5):
     #print(E-s)
 '''
 
-aa=1
+aa=10
